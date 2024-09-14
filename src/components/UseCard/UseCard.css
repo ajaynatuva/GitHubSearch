@@ -1,0 +1,108 @@
+.user-card {
+    margin: 1rem;
+  }
+  
+  .card-container {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .avatar-img {
+    width: 100px; /* Set width for the avatar */
+    height: 100px; /* Set height for the avatar */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+    margin-right: 1rem;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+
+  
+  .useBtn {
+    margin-top: 1rem;
+    width: 150px; /* Ensure the button is at the bottom */
+    background-color: none;
+  }
+  .user-card{
+    width: 800px;
+    position: relative;
+    left: 40px;
+  }
+  .repo-list {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  .repo-item {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  
+  .repo-language {
+    font-style: italic;
+    color: #555; /* Optional: Add some differentiation in color */
+  }
+  .repo-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .repo-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .repo-table tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .card-container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.user-info {
+  margin-left: 20px;
+  position: relative;
+  top: 0px;
+}
+
+.repo-details {
+  padding: 0;
+}
+
+.repo-scroll-container {
+  overflow-y: scroll;
+  height: 150px;
+}
+
+.repo-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.repo-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.useBtn {
+  margin-left: auto;
+}
+.userName{
+  position: relative;
+  right: 138px;
+}

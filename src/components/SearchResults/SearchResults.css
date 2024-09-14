@@ -1,0 +1,16 @@
+.searchBox {
+  width: 200px;
+}
+.pag{
+  float:right;
+  width: 500px;
+  position: relative;
+  left: 800px;
+}
+.totalRes{
+  position: relative;
+  left: 210px;
+}
+.searchResults{
+  margin-top: 10px;
+}
